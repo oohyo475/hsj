@@ -63,7 +63,6 @@ export default {
             password: this.addForm.pwd,
             userGroup: this.addForm.region
           };
-          // console.log(data);
           axios
             .post(
               "http://work.08321.org/sell/users.php?a=add",
